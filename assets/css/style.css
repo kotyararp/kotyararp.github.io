@@ -1,0 +1,96 @@
+body {
+	font-family: 'Comfortaa', cursive;
+	background: linear-gradient(45deg, #4c5159, #1a1d20);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%
+	}
+}
+
+.logo-text {
+	margin-left: 70px;
+	margin-top: 30px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+.menu {
+	text-align: right;
+	margin-right: 100px;
+	margin-top: -20px;
+}
+
+.link {
+	margin-left: 30px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+}
+
+.link:hover {
+	transition: 0.6s;
+	color: #DA70D6;
+}
+
+.btn {
+	outline: none;
+	background-color: #9370DB;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	border: none;
+	width: 500px;
+	height: 50px;
+	border-radius: 10px;
+	margin-left: 420px;
+}
+
+.btn:hover {
+	opacity: 0.9;
+	color: black;
+	background-color: white;
+	transition: 0.5s;
+	cursor: pointer;
+	border-radius: 50px;
+}
+
+.iframe {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.err {
+	text-align: center;
+	color: #fff;
+}
+
+.icon {
+	margin-top: -14px;
+	margin-left: 10px;
+}
+
+.copy {
+	color: grey;
+	font-size: 13px;
+	text-align: right;
+	font-family: cursive;
+}
+
+.dev {
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
